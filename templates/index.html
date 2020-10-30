@@ -68,7 +68,7 @@
     var msg = document.getElementById('textInput').value 
         document.querySelector('.chatArea').innerHTML+= `<div class='quest chat'>${msg}</div><br><br>`
         document.querySelector('#textInput').value=""  
-        fetch(`http://127.0.0.1:5000/get?msg=${msg}`)
+        fetch(`https://chat-bot84.herokuapp.com/get?msg=${msg}`)
         .then(res=>res.json())
         .then((data)=>{
             console.log({data});
