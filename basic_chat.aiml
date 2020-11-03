@@ -1,0 +1,20 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<category>
+    <pattern>Hello</pattern>
+    <template>
+        <random>
+        <li>Hello Sir</li>
+        <li>Hiiii</li>
+        <li>Hii,How are you ?</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>
+    Do you know *
+    </pattern>
+    <template>
+    <srai>Who is <star/></srai>
+    </template>
+</category>
+</aiml>
