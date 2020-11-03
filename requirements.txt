@@ -44,7 +44,6 @@ SQLAlchemy==1.2.19
 toml==0.10.2
 tornado==6.1
 tqdm==4.51.0
-traitlets==5.0.5
 virtualenv==20.0.34
 virtualenv-clone==0.5.4
 wcwidth==0.2.5
