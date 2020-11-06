@@ -2,6 +2,7 @@
 <category>
     <pattern>LOAD AIML B</pattern>
     <template>
+    <learn>ai/*.aiml</learn>
     <learn>basic_chat.aiml</learn>
     </template>
 </category>
