@@ -7,6 +7,11 @@ kernel = aiml.Kernel()
 kernel.learn("std-startup.xml")
 kernel.respond("load aiml b")
 
+@app.route("/")
+def index():
+    return "server is up"
+
+
 @app.route("/get")
 def get_bot_response():
     userText = request.args.get("msg")
