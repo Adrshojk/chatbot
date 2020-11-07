@@ -16,8 +16,3 @@ def get_bot_response():
 if __name__ == '__main__' :
     app.run(debug=True)
 
-
-# while True: 
-#     input_text = input(">Human : ")
-#     response = kernel.respond(input_text)
-#     print(">Bot : " + response)
